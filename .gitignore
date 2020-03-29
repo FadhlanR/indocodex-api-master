@@ -3,11 +3,5 @@ jspm_packages
 package-lock.json
 .idea/
 
-./setEnvironment.sh
-setStagingEnvironment.sh
-
 # Serverless directories
 .serverless
-
-output/
-/setEnvironment.sh
