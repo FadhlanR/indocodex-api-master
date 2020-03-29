@@ -1,0 +1,36 @@
+{
+  "name": "stellarterm-api",
+  "version": "1.0.0",
+  "description": "Creates a ticker with information on the markets on Stellar",
+  "keywords": [
+    "stellar",
+    "stellarterm",
+    "stellarterm-api"
+  ],
+  "author": "Ultra Stellar, LLC",
+  "bugs": {
+    "url": "https://github.com/stellarterm/stellarterm-api/issues"
+  },
+  "scripts": {
+    "deploy": "source ./setEnvironment.sh && ./deploy.sh"
+  },
+  "homepage": "https://github.com/stellarterm/stellarterm-api",
+  "dependencies": {
+    "aws-sdk": "^2.465.0",
+    "bluebird": "^3.5.0",
+    "child_process": "^1.0.2",
+    "lodash": "^4.17.11",
+    "mkdirp": "^0.5.1",
+    "node-fetch": "^1.6.3",
+    "node-schedule": "^1.3.2",
+    "p-queue": "^2.1.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.1",
+    "shelljs": "^0.8.3",
+    "stellar-sdk": "^1.0.2",
+    "stellarterm-directory": "git+https://github.com/stellarterm/stellarterm-directory.git"
+  },
+  "engines": {
+    "node": ">=7.4.0 <11.0.0"
+  }
+}
